@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "n9SvHiTqisNpJQG0aG22i4bYpZHkzoHYTh6BXuK3r7YtYpmJLEzlXS6O2ya4Sd1/pCOc+tfF8eC1J9iNPFlxOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luyfe\\source\\repos\\WPFApplication\\ServiceApi\\ServiceApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luyfe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\luyfe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\luyfe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\luyfe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\luyfe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\luyfe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

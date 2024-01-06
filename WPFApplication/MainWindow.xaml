@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPFApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <!-- Barra lateral -->
+            <ColumnDefinition Width="*"/>
+            <!-- Frame -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Barra lateral com 5 botões -->
+        <StackPanel Grid.Column="0" Background="LightGray" Orientation="Vertical">
+            <Button Content="Inicio" Margin="5" Style="{StaticResource MyButtonStyle}" Click="Button_Click" Name="init"/>
+            <Button Content="Linha de produção" Margin="5" Style="{StaticResource MyButtonStyle}"/>
+            <Button Content="Console" Margin="5" Style="{StaticResource MyButtonStyle}"/>
+            <Button Content="Expedição" Margin="5" Style="{StaticResource MyButtonStyle}"/>
+            <Button Content="Configurações" Margin="5" Style="{StaticResource MyButtonStyle}"/>
+        </StackPanel>
+
+        <!-- Frame para renderizar -->
+        <Frame Grid.Column="1" Name="MainFrame" />
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="49,74,0,0" TextWrapping="Wrap" Text="Seriais" VerticalAlignment="Top" Width="250" Name="txbSeriais"/>
+    </Grid>
+</Window>

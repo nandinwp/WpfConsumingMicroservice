@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFApplication", "WPFApplication\WPFApplication.csproj", "{BB2BE603-AD0F-439E-80F7-3926856242CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceApi", "ServiceApi\ServiceApi.csproj", "{B4A97213-A4C2-43A8-8677-33AEDDB6E111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2BE603-AD0F-439E-80F7-3926856242CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2BE603-AD0F-439E-80F7-3926856242CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2BE603-AD0F-439E-80F7-3926856242CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2BE603-AD0F-439E-80F7-3926856242CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A97213-A4C2-43A8-8677-33AEDDB6E111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A97213-A4C2-43A8-8677-33AEDDB6E111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A97213-A4C2-43A8-8677-33AEDDB6E111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A97213-A4C2-43A8-8677-33AEDDB6E111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8BC246B-B43F-45DC-B5CA-943DA49ABB12}
+	EndGlobalSection
+EndGlobal
